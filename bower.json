@@ -1,0 +1,22 @@
+{
+  "name": "07-positioning-exercise",
+  "authors": [
+    "Jeremy Glover <jeremyglover33@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "~3.0.3",
+    "font-awesome": "~4.4.0"
+  }
+}
