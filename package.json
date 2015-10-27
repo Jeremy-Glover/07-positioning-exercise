@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "broccoli": "^0.16.8"
+    "broccoli": "^0.16.8",
+    "broccoli-merge-trees": "^0.2.3"
   }
 }

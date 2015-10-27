@@ -5,42 +5,62 @@ html {
   box-sizing: inherit;
 }
 body {
-
-
+  font-family: sans-serif;
+  font-weight: lighter;
 }
 
 main {
   position: relative;
-  width: 500px;
+  width: 400px;
   border: 1px lightgray solid;
   border-radius: 2%;
-  margin: 10px; auto;
-  padding: 50px;
+  margin: 10px auto;
+  align-content: left;
 }
 
 h1 {
+  margin-left: 20px;
+  margin-top: 30px;
   color: rgb(52, 159, 56);
 }
 
-h3 {
+li {
+  margin-left: 30px;
+  line-height: 2rem;
+  color: lightgray;
+  text-decoration-color: lightgray;
+  list-style-type: square;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px lightgray solid;
+}
+
+.sub-head {
   color: lightgray;
 }
 
 .number {
   position: absolute;
-  top: 30%;
+  top: 20%;
   right: 0%;
-  transform: translateX(50%);
-
-
+  transform: translateX(40%);
   width: 6rem;
   height: 6rem;
   text-align: center;
   line-height: 6rem;
-
   font-size: 3rem;
   color: white;
   background-color: lightgray;
   border: 1px lightgray;
   border-radius: 50%;
+}
+
+.fa-twitter, .fa-facebook, .fa-google-plus-square {
+  display: inline;
+  text-align: center;
+  font-size: 3rem;
+  padding-left: 20px;
+  color: lightgray;
 }
