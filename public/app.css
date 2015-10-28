@@ -15,8 +15,9 @@ main {
   border: 1px lightgray solid;
   border-radius: 2%;
   margin: 10px auto;
-  align-content: left;
+
 }
+/*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> */
 
 h1 {
   margin-left: 20px;
@@ -44,7 +45,7 @@ a {
 .number {
   position: absolute;
   top: 20%;
-  right: 0%;
+  right: 0;
   transform: translateX(40%);
   width: 6rem;
   height: 6rem;
